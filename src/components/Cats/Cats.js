@@ -32,9 +32,11 @@ class Cats extends React.Component {
   render() {
     const { catImage, counter } = this.state;
     const { increaseCounter } = this;
+    const { name } = this.props;
 
     return (
       <div>
+        <h2>{name}</h2>
         <img src={catImage} alt="Imagen gato" onClick={increaseCounter} />
         <p>{counter}</p>
       </div>
