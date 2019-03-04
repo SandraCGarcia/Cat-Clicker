@@ -1,4 +1,5 @@
 import React from "react";
+import './Cats.css';
 
 class Cats extends React.Component {
   constructor(props) {
@@ -35,10 +36,10 @@ class Cats extends React.Component {
     const { name } = this.props;
 
     return (
-      <div>
+      <div className="cats-container_info">
         <h2>{name}</h2>
-        <img src={catImage} alt="Imagen gato" onClick={increaseCounter} />
-        <p>{counter}</p>
+        <img className="cats-photo" src={catImage} alt="Imagen gato" onClick={increaseCounter} />
+        <p className="cats-counter">{counter}</p>
       </div>
     );
   }
