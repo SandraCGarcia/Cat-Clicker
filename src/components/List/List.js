@@ -1,13 +1,12 @@
 import React from 'react';
-import './List.css'
 
-const List = ({ props }) => {
+const List = ({ CAT_ARRAY }) => {
 
     return (
+        <ul>
+            {CAT_ARRAY.map(catObject => console.log(catObject.name))}
 
-        <p>List working!</p>
-
-    );
-}
+        </ul>
+    )}
 
 export default List;
