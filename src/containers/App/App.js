@@ -28,14 +28,14 @@ class App extends Component {
     this.setState({ counter: counter + 1 });
   };
 //Recoge el evento del gato seleccionado
-  selectCat = event => {
-    const clickedCat = event.currentTarget.id;
-    for ( const cat of CAT_ARRAY ) {
-      if (cat.name = clickedCat) {
-        this.setState( { selectedCat: cat } )
-      }
-    }
-  }
+  // selectCat = event => {
+  //   const clickedCat = event.currentTarget.id;
+  //   for ( const cat of CAT_ARRAY ) {
+  //     if (cat.name = clickedCat) {
+  //       this.setState( { selectedCat: cat } )
+  //     }
+  //   }
+  // }
 
 //Pasa el for y crea todos los gatos
   getCat = () => {
@@ -53,7 +53,6 @@ class App extends Component {
   };
   }
   render() {
-  console.log(CAT_ARRAY);
   const { selectedCat, increaseCounter, selectCat } = this.state;
   
     return (
