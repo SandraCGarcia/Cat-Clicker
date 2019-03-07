@@ -18,3 +18,27 @@ detalle de gato. La aplicación debe mostrar al menos 5 gatos. En el detalle de 
 debe mostrar el nombre, foto y número de clicks (sobre la foto). El usuario puede
 hacer click sobre los nombres de la lista de gatos para cambiar el gato visible en el área
 de detalle.
+
+##Gifs Animados - Maquetación CSS
+Desarrolla, con HTML y CSS una vista según las especificaciones de más abajo. Puedes
+usar Javascript (con cualquier framework) para crear la vista.
+Puedes partir de Bootstrap o cualquier otro framework CSS con el que estés
+familiarizado. Puedes usar CSS o LESS/SASS/Stylus/...:
+
+1- un encabezado de alto fijo, con dos secciones una alineada a la izquierda y
+otra a la derecha
+
+2- un pie de página de alto fijo
+
+3- un área principal con scroll vertical que muestre un título y una “rejilla” de
+bloques de imagen. Es deseable que tenga scroll vertical, que las imágenes se
+coloquen bien independientemente de cuantas haya, que la composición
+quede equilibrada en distintos tamaños de pantalla...
+
+4- cada bloque de imagen debe tener: la imagen (sin deformar), un texto (que
+puede ser de longitud variable, incluso ocupar varias líneas) y un botón. Es
+deseable que todas las imágenes ocupen lo mismo (aunque los ficheros tengan
+tamaño distinto), que los bloques tengan el mismo tamaño (aunque imágenes y
+texto sean distintos), que los botones queden alineados abajo a la derecha...
+
+¿Lo puedes hacer responsive?

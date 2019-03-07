@@ -1,0 +1,17 @@
+.App-header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 10px;
+    border: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.header-text-user{
+    margin-right: 35px;
+}
